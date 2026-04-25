@@ -1,0 +1,128 @@
+{
+  "_metadata": {
+    "framework": "E-IAIG-HT",
+    "instrument": "Auracelle WinterStorm2030",
+    "workstream": "Success Criteria — Spearheaded by Auracelle WinterStorm2030",
+    "panel": "NATO STO SAS-219",
+    "revision": "April 2026",
+    "classification": "UNCLASSIFIED // FOR OFFICIAL USE",
+    "context": "Gap identified in inaugural SAS-219 session: how do we write down success criteria and how do we meet them?"
+  },
+  "five_approaches": [
+    {
+      "id": "APPROACH-1",
+      "name": "Backwards-Engineered Tangibles",
+      "description": "Define success by identifying exactly what decision-makers need from the wargame output, then design criteria that confirm those outputs were delivered. Inverts typical practice — grounds success in decision-maker utility, not activity metrics."
+    },
+    {
+      "id": "APPROACH-2",
+      "name": "Threshold-Based Governance Observables",
+      "description": "Define success as achieving specific observable governance behaviors during scenario execution — binary, scenario-linked, directly tied to wargame design intent."
+    },
+    {
+      "id": "APPROACH-3",
+      "name": "Comparative Actor Improvement (g-GWC Delta)",
+      "description": "Define success as measurable improvement in governance capacity scores across wargame cycles — particularly for CD and ASI domains where baseline scores are lowest."
+    },
+    {
+      "id": "APPROACH-4",
+      "name": "Research Question Insight Quality",
+      "description": "Define success not just as RQ coverage but as the novelty and actionability of insights generated per RQ. Not 'did we address RQ3' but 'did RQ3 analysis produce an insight that changes how we think?'"
+    },
+    {
+      "id": "APPROACH-5",
+      "name": "Institutional Adoption Rate",
+      "description": "Define success by whether wargame outputs are adopted in real institutional processes — exercises, doctrine reviews, capability planning, policy documents. The ultimate downstream criterion."
+    }
+  ],
+  "generic_sas219_kpis": [
+    {
+      "id": "G-KPI-1",
+      "name": "Wargame Cycle Completion Rate",
+      "definition": "% of planned tabletop/wargame iterations completed on schedule within the 2026–2028 roadmap",
+      "threshold": "≥ 90%",
+      "measurement_method": "Bi-annual review against roadmap milestones"
+    },
+    {
+      "id": "G-KPI-2",
+      "name": "Scenario Fidelity Score",
+      "definition": "Expert panel assessment of how accurately scenario design reflects current High North operating environment realities",
+      "threshold": "≥ 75/100",
+      "measurement_method": "Post-scenario expert survey compared to open-source assessments"
+    },
+    {
+      "id": "G-KPI-3",
+      "name": "Research Question Coverage Index",
+      "definition": "% of SAS-219's five formal Research Questions addressed by scenario outputs in each wargame cycle",
+      "threshold": "100%",
+      "measurement_method": "Post-game debrief mapping outputs to RQ1–RQ5"
+    },
+    {
+      "id": "G-KPI-4",
+      "name": "Panel Participation and Contribution Rate",
+      "definition": "% of panel members contributing substantive analytical outputs per annual cycle",
+      "threshold": "≥ 80%",
+      "measurement_method": "Panel secretariat tracking; annual review"
+    },
+    {
+      "id": "G-KPI-5",
+      "name": "Decision-Maker Utility Rating",
+      "definition": "Post-wargame assessment by NATO/DoD/MoD audience of whether outputs improved understanding of High North decision challenges",
+      "threshold": "≥ 70% rate outputs as 'useful' or 'highly useful'",
+      "measurement_method": "Anonymous post-event survey; tracked across wargame cycles"
+    }
+  ],
+  "winterstorm2030_kpis": [
+    {
+      "id": "WS-KPI-1",
+      "name": "Governance Baseline Coverage",
+      "definition": "% of Arctic actors with fully scored g-GWC profiles across all 8 BGC domains including CD, measured through the E-IAIG-HT scoring instrument and Auracelle WinterStorm2030",
+      "actors_required": ["norway", "finland", "sweden", "denmark", "iceland", "russia"],
+      "domains_required": ["STI", "SAD", "ESI", "NDM", "SRA", "IIC", "ASI", "CD"],
+      "threshold": "100% actor coverage before first wargame cycle",
+      "threshold_numeric": 1.00,
+      "measurement_method": "E-IAIG-HT scoring instrument; Auracelle WinterStorm2030 platform",
+      "correction_note": "Measured through Auracelle WinterStorm2030, not Auracelle Bach"
+    },
+    {
+      "id": "WS-KPI-2",
+      "name": "CD Scenario Activation Rate",
+      "definition": "% of wargame scenario injects that activate at least one CD-NOF observable, enabling measurement of cognitive domain governance performance in play",
+      "threshold": "≥ 50%",
+      "threshold_numeric": 0.50,
+      "measurement_method": "CD-NOF tracking in WinterStorm2030 scenario inject library",
+      "cycle_1_result": 0.625,
+      "cycle_1_status": "MET"
+    },
+    {
+      "id": "WS-KPI-3",
+      "name": "Governance Seam Identification Yield",
+      "definition": "Number of new adversarially exploitable governance seams identified per wargame cycle through comparative g-GWC analysis using the Governance_Gap() metric",
+      "threshold": "≥ 2 novel seams per annual cycle",
+      "threshold_numeric": 2,
+      "measurement_method": "Post-game governance seam analysis; Governance_Gap() metric output",
+      "cycle_1_result": 3,
+      "cycle_1_status": "MET"
+    },
+    {
+      "id": "WS-KPI-4",
+      "name": "Bayesian/Kalman Tracking Fidelity",
+      "definition": "Correlation between dynamic g-GWC score trajectories (Kalman-tracked during live play) and post-hoc expert assessment of actor governance performance",
+      "threshold": "≥ 0.70 correlation",
+      "threshold_numeric": 0.70,
+      "measurement_method": "Post-game model validation; methodology working paper reporting",
+      "cycle_1_result": 0.81,
+      "cycle_1_status": "MET"
+    },
+    {
+      "id": "WS-KPI-5",
+      "name": "Backwards-Engineering Success Rate",
+      "definition": "% of wargame tangibles traceable back to a formally stated decision-maker requirement identified before scenario design began",
+      "threshold": "≥ 80%",
+      "threshold_numeric": 0.80,
+      "measurement_method": "Auracelle WinterStorm2030 requirements register; post-game traceability audit",
+      "cycle_1_result": 0.889,
+      "cycle_1_status": "MET"
+    }
+  ]
+}
