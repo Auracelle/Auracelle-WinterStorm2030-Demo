@@ -1,0 +1,96 @@
+{
+  "_metadata": {
+    "framework": "E-IAIG-HT",
+    "instrument": "Auracelle WinterStorm2030",
+    "metric": "Governance_Gap()",
+    "revision": "April 2026 — includes CD seams",
+    "classification": "UNCLASSIFIED // FOR OFFICIAL USE",
+    "note": "Seams are ranked by weighted gap (gap × Arctic domain weight). Primary intelligence product for SAS-219 decision-makers."
+  },
+  "seams": [
+    {
+      "id": "SEAM-IIC-01",
+      "label": "IIC Resilience Asymmetry",
+      "status": "Established",
+      "actors": { "higher": "russia", "lower": "iceland" },
+      "domain": "IIC",
+      "domain_weight": 0.155,
+      "gap_points": 46,
+      "weighted_gap": 7.13,
+      "scores": { "russia": 88, "iceland": 42 },
+      "gray_zone_description": "Sustained information operations exploit the widest adversarial IIC gap in the allied actor set. Iceland's public resilience governance (IIC: 42) cannot match Russian information operations capability (IIC: 88). The gray zone for narrative operations targeting NATO solidarity.",
+      "adversarial_vector": "Information operations targeting NATO solidarity sequenced to hit Iceland first — adversarial narrative operates in the window before Nordic counter-narrative governance activates.",
+      "inject_id": "I-5",
+      "kpi_linkage": ["WS-KPI-3"]
+    },
+    {
+      "id": "SEAM-CD-01",
+      "label": "CD Doctrine Asymmetry",
+      "status": "NEW — April 2026",
+      "actors": { "higher": "russia", "lower": "iceland" },
+      "domain": "CD",
+      "domain_weight": 0.130,
+      "gap_points": 44,
+      "weighted_gap": 5.72,
+      "scores": { "russia": 82, "iceland": 38 },
+      "gray_zone_description": "Russian maskirovka calibrated to operate below Iceland's cognitive classification threshold (CD: 38) while Norway (CD: 61) has already recognized the operation as adversarial — creating a 2.5-hour alliance perception split during which coordinated response is impossible.",
+      "adversarial_vector": "Cognitive operation timed to exploit Iceland's classification delay. Norway and Iceland reach different threat assessments simultaneously — preventing Article 4 consultation activation. The gray zone window = 2.5 hours.",
+      "inject_id": "I-6",
+      "kpi_linkage": ["WS-KPI-2", "WS-KPI-3"],
+      "cd_nofs_activated": ["CD-NOF-01", "CD-NOF-02", "CD-NOF-05"]
+    },
+    {
+      "id": "SEAM-CD-02",
+      "label": "Alliance Cognitive Coherence Gap",
+      "status": "NEW — April 2026",
+      "actors": { "higher": "finland", "lower": "iceland" },
+      "domain": "CD",
+      "domain_weight": 0.130,
+      "gap_points": 26,
+      "weighted_gap": 3.38,
+      "scores": { "finland": 64, "sweden": 60, "iceland": 38 },
+      "gray_zone_description": "Differential deception-recognition frameworks between recently-integrated NATO members (Finland CD: 64, Sweden CD: 60) and Iceland (CD: 38) create an exploitable wedge in alliance threat perception coherence.",
+      "adversarial_vector": "Adversarial cognitive operation drives split in allied threat assessment at critical Article 4/5 decision moment — the gray zone between incident and armed attack where alliance coherence is most critical.",
+      "inject_id": "I-6",
+      "kpi_linkage": ["WS-KPI-2", "WS-KPI-3"],
+      "cd_nofs_activated": ["CD-NOF-05"]
+    },
+    {
+      "id": "SEAM-ASI-01",
+      "label": "ASI Governance Disparity",
+      "status": "Established",
+      "actors": { "higher": "norway", "lower": "iceland" },
+      "domain": "ASI",
+      "domain_weight": 0.130,
+      "gap_points": 9,
+      "weighted_gap": 1.17,
+      "scores": { "norway": 65, "iceland": 56 },
+      "gray_zone_description": "Adversarial autonomous ops calibrated to exploit Icelandic ASI governance gap while Norway governs response — creates alliance coordination friction in the gray zone between autonomous system encounter and authorized response.",
+      "adversarial_vector": "The space between autonomous system encounter and authorized governance response, widened by Iceland's ASI gap vs Norway.",
+      "inject_id": "I-3",
+      "kpi_linkage": ["WS-KPI-3"]
+    },
+    {
+      "id": "SEAM-NDM-01",
+      "label": "Decision Tempo Gap",
+      "status": "Established",
+      "actors": { "higher": "norway", "lower": "denmark" },
+      "domain": "NDM",
+      "domain_weight": 0.165,
+      "gap_points": 5,
+      "weighted_gap": 0.83,
+      "scores": { "norway": 80, "denmark": 75 },
+      "gray_zone_description": "A hybrid operation requiring a coordinated Norway-Greenland governance response within 6 hours exploits Denmark/Greenland's slower inter-ministerial decision cycle — the gray zone between incident detection and coordinated alliance response authorization.",
+      "adversarial_vector": "Operation timed to require Norway-Greenland coordination within 6 hours. Denmark/Greenland's NDM cycle cannot match Norway's, creating a coordination gray zone.",
+      "inject_id": "I-1",
+      "kpi_linkage": ["WS-KPI-3"]
+    }
+  ],
+  "cycle_1_yield": {
+    "total_seams_identified": 3,
+    "new_seams": ["SEAM-CD-01", "SEAM-CD-02", "SEAM-NDM-01"],
+    "threshold": 2,
+    "threshold_met": true,
+    "ws_kpi3_status": "MET"
+  }
+}
