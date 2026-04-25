@@ -1,0 +1,114 @@
+{
+  "_metadata": {
+    "framework": "E-IAIG-HT",
+    "instrument": "Auracelle WinterStorm2030",
+    "panel": "NATO STO SAS-219",
+    "revision": "April 2026 — includes CD-activated injects",
+    "classification": "UNCLASSIFIED // FOR OFFICIAL USE"
+  },
+  "injects": [
+    {
+      "id": "I-1",
+      "title": "Svalbard Undersea Cable Cut — Ambiguous Attribution",
+      "domains": ["ESI", "SRA"],
+      "iaig_stages": ["Identify", "Investigate", "Collaborate"],
+      "governance_decision": "Attribution governance decision; Article 4 consultation threshold governance",
+      "gwc_observable": "Speed and accuracy of governance classification; alliance coordination activation timing",
+      "cd_activated": false,
+      "gray_zone_type": "ESI infrastructure gray zone — below armed attack threshold"
+    },
+    {
+      "id": "I-2",
+      "title": "GPS/PNT Degradation Across Nordic Airspace — Dual-Use Ambiguity",
+      "domains": ["ESI", "ASI", "NDM"],
+      "iaig_stages": ["Identify", "Secure", "Reason"],
+      "governance_decision": "Civilian vs. military jurisdiction governance; emergency PNT governance protocols",
+      "gwc_observable": "Civilian-military governance coordination speed; emergency authority activation legitimacy",
+      "cd_activated": false,
+      "gray_zone_type": "Dual-use ambiguity gray zone — civilian and military governance threshold conflict"
+    },
+    {
+      "id": "I-3",
+      "title": "AI-Enabled Adversarial Autonomous Surface Vessel Approaches Norwegian Offshore Platform",
+      "domains": ["ASI", "ESI", "NDM", "CD"],
+      "iaig_stages": ["Identify", "Secure", "Reason", "Govern"],
+      "governance_decision": "Autonomous systems rules of engagement governance; platform protection authority governance",
+      "gwc_observable": "ASI governance framework adequacy; human-in-the-loop governance compliance under time pressure",
+      "cd_activated": true,
+      "cd_nofs": ["CD-NOF-07"],
+      "cd_observable": "Norway classified in 1.8hrs. Iceland: no governance classification within scenario window.",
+      "gray_zone_type": "ASI + CD gray zone — autonomous system encounter below armed attack threshold"
+    },
+    {
+      "id": "I-4",
+      "title": "GPS/PNT Degradation — Adversarial Narrative Flooding Sensor Assessment",
+      "domains": ["ESI", "ASI", "IIC", "CD"],
+      "iaig_stages": ["Identify", "Secure", "Reason"],
+      "governance_decision": "Information environment manipulation governance; factual basis maintenance under narrative pressure",
+      "gwc_observable": "Capacity to maintain factual threat assessment when adversary floods information environment with contradictory signals",
+      "cd_activated": true,
+      "cd_nofs": ["CD-NOF-04"],
+      "cd_observable": "Finland maintained factual assessment. Iceland susceptible to adversarial narrative on sensor data.",
+      "gray_zone_type": "CD + IIC gray zone — information manipulation below threshold of recognized cognitive attack"
+    },
+    {
+      "id": "I-5",
+      "title": "Coordinated Disinformation Targeting Finnish NATO Membership Legitimacy",
+      "domains": ["IIC", "SRA", "SAD", "CD"],
+      "iaig_stages": ["Identify", "Investigate", "Govern"],
+      "governance_decision": "Counter-narrative governance authorization; information operations response governance",
+      "gwc_observable": "IIC domain governance activation; Nordic information resilience coordination governance",
+      "cd_activated": true,
+      "cd_nofs": ["CD-NOF-08"],
+      "cd_observable": "Finland public resilience governance activated. Sweden coordination: NOMINAL.",
+      "gray_zone_type": "IIC + CD gray zone — narrative operations below armed attack, above normal competition"
+    },
+    {
+      "id": "I-6",
+      "title": "MASKIROVKA FEINT — Russian Autonomous Dummy Forces in High North to Draw NATO North While Maritime Strike Planned South of Helsinki",
+      "domains": ["CD", "SAD", "NDM", "ASI"],
+      "iaig_stages": ["Identify", "Investigate", "Reason", "Collaborate"],
+      "governance_decision": "Strategic deception recognition governance; cognitive threat classification; escalation decision under manufactured ambiguity",
+      "gwc_observable": "CD-NOF-01 Cognitive Threat Recognition Speed; CD-NOF-02 Strategic Deception Resilience; CD-NOF-05 Alliance Perception Coherence",
+      "cd_activated": true,
+      "cd_nofs": ["CD-NOF-01", "CD-NOF-02", "CD-NOF-05"],
+      "cd_observable": "Norway classified as maskirovka in 2.5hrs. Iceland did not classify as cognitive operation within scenario window. Alliance perception split confirmed. PRIMARY INTELLIGENCE PRODUCT.",
+      "gray_zone_type": "CD gray zone — strategic deception below allied governance classification threshold",
+      "priority": "HIGH — primary KPI 2 activator and seam SEAM-CD-01 demonstration inject"
+    },
+    {
+      "id": "I-7",
+      "title": "AI-Generated Synthetic Intelligence Targeting Nordic Commander Threat Assessment — False Vulnerability Signal",
+      "domains": ["CD", "IIC", "SRA", "ASI"],
+      "iaig_stages": ["Identify", "Secure", "Reason"],
+      "governance_decision": "Decision-maker bias governance; AI-generated intelligence validation; information environment manipulation resistance",
+      "gwc_observable": "CD-NOF-03 Decision-Maker Bias Governance; CD-NOF-04 Information Environment Manipulation Resistance; CD-NOF-07 Autonomous System Perception Integrity",
+      "cd_activated": true,
+      "cd_nofs": ["CD-NOF-03", "CD-NOF-04", "CD-NOF-07"],
+      "cd_observable": "Norway: red team protocol activated at T+1.2hrs. Finland: no bias audit protocol triggered.",
+      "gray_zone_type": "CD + ASI gray zone — AI-enabled cognitive operation below threshold of recognized attack"
+    },
+    {
+      "id": "I-8",
+      "title": "Nordic Energy Infrastructure Simultaneous Failures — Coordinated or Coincidental",
+      "domains": ["ESI", "SRA", "IIC"],
+      "iaig_stages": ["Identify", "Investigate", "Collaborate", "Scale"],
+      "governance_decision": "Cross-sector governance coordination; public communication governance under uncertainty",
+      "gwc_observable": "ESI governance resilience; inter-ministerial coordination governance effectiveness",
+      "cd_activated": false,
+      "gray_zone_type": "ESI gray zone — infrastructure event below attribution threshold"
+    }
+  ],
+  "cycle_1_summary": {
+    "total_injects": 8,
+    "cd_activated": 5,
+    "cd_activation_rate": 0.625,
+    "threshold": 0.50,
+    "threshold_met": true,
+    "primary_intelligence_products": [
+      "SEAM-CD-01 demonstrated in I-6: Norway/Iceland perception split, 2.5hr window",
+      "SEAM-IIC-01 demonstrated in I-5: Iceland IIC activation failure vs Finland",
+      "SEAM-NDM-01 emerging from I-1: Norway/Greenland coordination tempo gap"
+    ]
+  }
+}
