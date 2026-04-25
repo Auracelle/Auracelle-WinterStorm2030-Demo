@@ -1,0 +1,158 @@
+{
+  "_metadata": {
+    "framework": "E-IAIG-HT",
+    "instrument": "Auracelle WinterStorm2030",
+    "panel": "NATO STO SAS-219",
+    "revision": "April 2026 — 8-domain including Cognitive Domain",
+    "classification": "UNCLASSIFIED // FOR OFFICIAL USE",
+    "note": "All scores are illustrative baselines under doctoral validation. Panel invited to challenge and refine."
+  },
+  "domains": ["STI", "SAD", "ESI", "NDM", "SRA", "IIC", "ASI", "CD"],
+  "domain_labels": {
+    "STI": "Science, Technology & Innovation",
+    "SAD": "Strategic Affairs & Defense",
+    "ESI": "Energy, Space & Infrastructure",
+    "NDM": "National Decision-Making",
+    "SRA": "Strategic Risk Assessment",
+    "IIC": "Information & Influence Capacity",
+    "ASI": "Autonomous Systems Integration",
+    "CD":  "Cognitive Domain"
+  },
+  "arctic_weights": {
+    "ESI": 0.190,
+    "NDM": 0.165,
+    "IIC": 0.155,
+    "CD":  0.130,
+    "ASI": 0.130,
+    "SRA": 0.115,
+    "SAD": 0.060,
+    "STI": 0.055,
+    "_note": "CD weight reflects inaugural session identification of cognitive operations as critical High North adversarial vector"
+  },
+  "actors": {
+    "norway": {
+      "name": "Norway",
+      "adversarial": false,
+      "gwc": 74.8,
+      "domains": {
+        "STI": 78, "SAD": 82, "ESI": 75, "NDM": 80,
+        "SRA": 77, "IIC": 73, "ASI": 65, "CD": 61
+      },
+      "cd_notes": "Emerging cognitive warfare doctrine. Maskirovka classification speed: ~2.5hrs in Inject I-6.",
+      "primary_seam": "Svalbard sovereignty ambiguity — Norwegian operational transparency",
+      "cognitive_warfare_exposure": "MEDIUM"
+    },
+    "finland": {
+      "name": "Finland",
+      "adversarial": false,
+      "gwc": 75.6,
+      "domains": {
+        "STI": 80, "SAD": 78, "ESI": 72, "NDM": 82,
+        "SRA": 79, "IIC": 76, "ASI": 68, "CD": 64
+      },
+      "cd_notes": "Strongest allied CD score. New NATO integration creates CD-NOF-05 (Alliance Coherence) watch.",
+      "primary_seam": "New NATO integration — Article 5 commitment narrative exploitation",
+      "cognitive_warfare_exposure": "MEDIUM"
+    },
+    "sweden": {
+      "name": "Sweden",
+      "adversarial": false,
+      "gwc": 73.0,
+      "domains": {
+        "STI": 79, "SAD": 75, "ESI": 71, "NDM": 78,
+        "SRA": 76, "IIC": 74, "ASI": 64, "CD": 60
+      },
+      "cd_notes": "Historical neutrality creates CD vulnerability to reactivation narratives.",
+      "primary_seam": "New NATO integration — historical neutrality reactivation",
+      "cognitive_warfare_exposure": "MEDIUM"
+    },
+    "denmark": {
+      "name": "Denmark/Greenland",
+      "adversarial": false,
+      "gwc": 68.7,
+      "domains": {
+        "STI": 74, "SAD": 72, "ESI": 68, "NDM": 75,
+        "SRA": 71, "IIC": 70, "ASI": 58, "CD": 55
+      },
+      "cd_notes": "CD emerging gap. US-Denmark-Greenland sovereignty dynamics create perception management vulnerability.",
+      "primary_seam": "Greenland sovereignty — US-Denmark reliability narratives",
+      "cognitive_warfare_exposure": "HIGH"
+    },
+    "iceland": {
+      "name": "Iceland",
+      "adversarial": false,
+      "gwc": 59.3,
+      "domains": {
+        "STI": 65, "SAD": 60, "ESI": 58, "NDM": 67,
+        "SRA": 63, "IIC": 42, "ASI": 56, "CD": 38
+      },
+      "cd_notes": "CRITICAL: CD 38 = lowest allied score. 44-pt gap vs Russia (CD 82). Maskirovka operates below Iceland's classification threshold. CD-NOF-01 failure observed in Inject I-6.",
+      "primary_seam": "CD Doctrine Asymmetry (44 pts vs Russia) + IIC gap (46 pts vs Russia) — compounding gray zone vulnerability",
+      "cognitive_warfare_exposure": "CRITICAL"
+    },
+    "russia": {
+      "name": "Russia",
+      "adversarial": true,
+      "gwc": 80.2,
+      "domains": {
+        "STI": 72, "SAD": 85, "ESI": 80, "NDM": 76,
+        "SRA": 81, "IIC": 88, "ASI": 74, "CD": 82
+      },
+      "cd_notes": "Institutionalized maskirovka doctrine. CD 82 reflects demonstrated strategic deception capability at operational and strategic scale. Primary cognitive warfare actor in High North.",
+      "primary_seam": "N/A — adversarial actor exploiting seams in allied governance architecture",
+      "cognitive_warfare_exposure": "ACTOR"
+    }
+  },
+  "governance_seams": [
+    {
+      "id": "SEAM-CD-01",
+      "label": "CD Doctrine Asymmetry",
+      "actors": ["russia", "iceland"],
+      "domain": "CD",
+      "gap_points": 44,
+      "description": "Russian maskirovka calibrated to operate below Iceland's cognitive classification threshold (CD: 38) while Norway (CD: 61) has already recognized the operation as adversarial — creating a 2.5-hour alliance perception split during which coordinated response is impossible.",
+      "gray_zone_vector": "Cognitive operation timed to exploit Iceland's classification delay. Norway and Iceland reach different threat assessments simultaneously — preventing Article 4 consultation activation.",
+      "status": "NEW — April 2026"
+    },
+    {
+      "id": "SEAM-CD-02",
+      "label": "Alliance Cognitive Coherence Gap",
+      "actors": ["finland", "sweden", "iceland"],
+      "domain": "CD",
+      "gap_points": 26,
+      "description": "Differential deception-recognition frameworks between recently-integrated NATO members (Finland CD: 64, Sweden CD: 60) and Iceland (CD: 38) create an exploitable wedge in alliance threat perception coherence.",
+      "gray_zone_vector": "Adversarial cognitive operation drives split in allied threat assessment at critical Article 4/5 decision moment — the gray zone between incident and armed attack.",
+      "status": "NEW — April 2026"
+    },
+    {
+      "id": "SEAM-ASI-01",
+      "label": "ASI Governance Disparity",
+      "actors": ["norway", "iceland"],
+      "domain": "ASI",
+      "gap_points": 9,
+      "description": "Adversarial autonomous ops calibrated to exploit Icelandic ASI governance gap while Norway governs response.",
+      "gray_zone_vector": "The space between autonomous system encounter and authorized governance response — widened by Iceland's ASI gap vs Norway.",
+      "status": "Established"
+    },
+    {
+      "id": "SEAM-IIC-01",
+      "label": "IIC Resilience Asymmetry",
+      "actors": ["russia", "iceland"],
+      "domain": "IIC",
+      "gap_points": 46,
+      "description": "Russia IIC 88 vs Iceland IIC 42 — widest gap in allied actor set. Sustained information operations exploit Iceland's weakest IIC score.",
+      "gray_zone_vector": "Narrative operations targeting NATO solidarity sequenced to hit Iceland first — the gray zone where adversarial narrative operates before Nordic counter-narrative governance activates.",
+      "status": "Established"
+    },
+    {
+      "id": "SEAM-NDM-01",
+      "label": "Decision Tempo Gap",
+      "actors": ["norway", "denmark"],
+      "domain": "NDM",
+      "gap_points": 5,
+      "description": "Norway NDM 80 vs Denmark/Greenland NDM 75. Hybrid operation requiring coordinated Norway-Greenland response within 6 hours finds Denmark/Greenland unable to keep pace.",
+      "gray_zone_vector": "The coordination gray zone between Norway's fast inter-ministerial decision cycle and Denmark/Greenland's slower equivalent.",
+      "status": "Established"
+    }
+  ]
+}
