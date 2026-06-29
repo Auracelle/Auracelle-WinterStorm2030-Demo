@@ -5,6 +5,11 @@
 > This repository is shared with NATO STO SAS-219 panel members for official use only.
 > Redistribution, reproduction, or use outside the SAS-219 panel context is not authorised
 > without express written permission. See [NOTICE.md](NOTICE.md) and [LICENSE](LICENSE) for full terms.
+>
+> Access details:
+URL: https://auracelle.github.io/Auracelle-WinterStorm2030-Demo/
+Username: SAS219
+Password: WinterStorm2030!
 
 **E-IAIG-HT (Evans - Intent/Autonomy/Interaction/Governance — Hierarchical Theory)**
 **Auracelle AI Governance Labs  |  NATO STO SAS-219 High North Scenarios for Wargaming and Analysis**
